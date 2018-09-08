@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const jquery = require('jquery');
 
 module.exports = {
   entry: './src/index.js',

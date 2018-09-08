@@ -29,6 +29,7 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "file-loader": "^2.0.0",
+    "jquery": "^3.3.1",
     "node-sass-loader": "^0.1.7"
   }
 }

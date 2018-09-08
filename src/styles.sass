@@ -244,7 +244,38 @@ section
 			position: relative
 			flex-basis: 100%
 			-ms-flex: 1 0 100%
-					
+#frame
+	width: 600px
+	position: fixed
+	display: none
+	top: 0
+	left: 0
+	z-index: 10
+	text-align: center
+	padding: 5px
+	background: white
+	margin: auto
+	max-width: 100%
+	
+	.frame
+		max-width: 100%
+		height: auto
+		margin: 10px
+		box-shadow: 5px 15px 15px #eee, -5px 15px 15px #eee
+		
+	#frame_close
+		border-radius: 50%
+		background: white
+		padding: 10px 12px
+		border: 1px solid black
+		position: absolute
+		top: 10px
+		right: 10px
+		cursor: pointer
+		
+#frame_open
+	cursor: pointer
+							
 @media (max-width: 600px) and (min-width: 451px)
 	.gray-group
 		.gray-group__item--left
